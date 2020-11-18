@@ -6,6 +6,8 @@ A program that reads a topographic map structured as a text file (examples in /m
 
 This is the first project in the graphics branch of the old (pre-2020) curriculum at 42 Silicon Valley. It's built using the 'minilibx' C library (as per the assignment's instructions) which provides very basic graphics functions, like opening a window and drawing a pixel in that window. View the assignment [here](https://github.com/jakemgilfix/ft_fdf-Wireframe-Rasterizer/blob/master/fdf.en.pdf).
 
+As with all 42 Silicon Valley projects, all code must comply with [42's style guide or 'Norme'](https://github.com/jakemgilfix/ft_fdf-Wireframe-Rasterizer/blob/master/norme.en.pdf). I would be remiss not to mention that this style guide is extremely dated and forces arbitrary constraints (e.g., 25 lines per function, 5 functions per file) that, however well-intended, often result in sub-optimal code.
+
 ## Features (required for project)
 * Only C Standard Library functions allowed are: `open()`, `read()`, `write()`, `close()`, `malloc()`, `free()`, `perror()`, `strerror()`, `exit()`, and all of the functions within the `math` library.
 * 2 built-in projection types: parallel and iso
