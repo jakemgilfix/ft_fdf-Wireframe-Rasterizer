@@ -11,6 +11,7 @@ As with all 42 Silicon Valley projects, all code must comply with [42's style gu
 ## Features (required for project)
 * Only C Standard Library functions allowed are: `open()`, `read()`, `write()`, `close()`, `malloc()`, `free()`, `perror()`, `strerror()`, `exit()`, and all of the functions within the `math` library.
 * 2 built-in projection types: parallel and iso
+* Input validation (invalid maps print an error message)
 
 ## Bonus Features (implemented for extra credit)
 * Camera controls: rotation in 3D, translation, and zoom
